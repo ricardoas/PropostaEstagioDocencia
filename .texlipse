@@ -1,0 +1,13 @@
+#TeXlipse project settings
+#Thu Sep 09 09:53:55 BRT 2010
+builderNum=6
+outputDir=
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=tmp
+mainTexFile=proposta.tex
+outputFile=proposta.pdf
+langSpell=en
+markDer=true
+srcDir=

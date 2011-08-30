@@ -1,0 +1,121 @@
+%%This is a very basic article template.
+%%There is just one section and two subsections.
+\documentclass{article}
+
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{epsfig}
+\usepackage{times}
+\usepackage{amsfonts,amssymb,latexsym,eucal,amsmath,theorem,amscd}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\setlength{\textheight}{247mm}
+\setlength{\textwidth}{155mm}
+\setlength{\topmargin}{-0.4mm}
+\setlength{\oddsidemargin}{5.4mm}
+\setlength{\voffset}{-13mm}
+\usepackage{colortbl}
+\usepackage[final]{pdfpages}
+
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        {\Large
+        Universidade Federal de Campina Grande - UFCG \\
+        Centro de Engenharia Elétrica e Informática - CEEI \\
+     	Programa de Pós-graduação em Ciência da Computação\\
+	}
+        \vspace{4cm}
+        {\Huge
+        Proposta de Estágio Docência\\
+        }
+        \vspace{5cm}
+		{\Large
+		Ricardo Araújo Santos \\
+		}
+		\vspace{1cm}
+        Área de Concentração: Redes de Computadores e Sistemas Distribuí­dos\\
+        Linha de Pesquisa: Gerência Automática de Infraestruturas Elásticas\\
+        \vspace{3cm}
+        {\Large
+	Francisco Vilar Brasileiro\\
+	Raquel Vigolvino Lopes\\
+	(Orientadores)\\
+	}      
+    \vspace{3cm}
+	Campina Grande, Mar\c{c}o de 2009\\
+	\copyright Ricardo Araújo Santos 09/09/2010
+    \end{center}
+\end{titlepage}
+
+\tableofcontents
+
+\newpage
+
+\section{Informações sobre o Estágio Proposto}
+
+\begin{description}
+  \item[Professor Responsável: ] Raquel Vigolvino Lopes
+  \item[Número de Créditos: ] $02$
+  \item[Semestre Letivo: ] $2010.2$
+  \item[Disciplina: ] Programação II
+\end{description}
+
+\newpage
+
+\section{Plano de Trabalho}
+
+\subsection{Objetivos}
+
+O estágio docência tem por objetivo máximo proporcionar ao estagiário a experiência letiva. Com esse intuito, diversas atividades podem ser desenvolvidas para preencher essa lacuna do aluno de pós-graduação. A disciplina Programação II cursada por alunos graduandos de segundo semestre, possui um perfil diferenciado e intimamente ligado com a disciplina de Laboratório de Programação II. Juntas, as disciplinas proporcionam aos graduandos um aprofundamento teórico na primeira e uma vivência prática dos conceitos na segunda disciplina.
+
+Espera-se construir com os alunos graduandos um conhecimento sobre Programação Orientada a Objetos (POO) tais como conceitos relacionados ao ambiente de desenvolvimento de aplicações no paradigma. Como estagiário de docência, o aluno de pós-graduação tem como objetivo maior nessa disciplina agir como facilitador da construção desse conhecimento, contribuindo com uma visão diferenciada da do professor da disciplina.
+
+Dada a proximidade entre as disciplinas, é possível que atividades realizadas na disciplina-alvo (Programação II) venham a influenciar e contribuir na disciplina prática (Laboratório de Programação II) e tanto o estagiário como o professor estão cientes dessa possibilidade. Dessa forma, todas as atividades são elaboradas com o pensamento de melhorar as duas disciplinas em conjunto, já que nem a disciplina teórica proporciona um acompanhamento mais técnico dos alunos assim como a disciplina prática não proporciona atividades mais diretamente ligadas a docência em si, agindo mais como uma aplicação da primeira.   
+
+\subsection{Fundamentação Teórica}
+
+Dentro do contexto da programação orientada a objetos, a disciplina usa como ferramenta a linguagem Java~\cite{java}. Com isso vários livros são usados como referencial na elaboração do material como ~\cite{thinking_in_java,deitel} e para consulta como~\cite{nutshell,core-java,java-gently}. Vários materiais estão disponíveis na internet como o tutorial da comunidade~\cite{java-tutorials}. O estagiário deve ter conhecimento também sobre as ferramentas usadas na disciplina como Eclipse~\cite{eclipse}, o ambiente de programação usado pelos alunos, e a linguagem UML (do inglês Unified Modeling Language)~\cite{uml}. 
+
+\subsection{Atividades Propostas/Metodologia}
+
+A seguir estão listadas as atividades a serem desempenhadas no comprimento no objetivo do Estágio Docência:
+
+\begin{itemize}
+  \item Revisão e elaboração de material didático. Essa atividade tem por base renovar os exemplos usados no material bem como a inclusão de novos contextos para a apresentação dos conceitos teóricos aos alunos. O material usado atualmente usa exemplos antigos e que podem ser atualizados inclusive para acompanhar novas tendências da linguagem usada como ferramenta de ensino.
+  \item Elaboração e aplicação de testes. O aluno da disciplina teórica também é avaliado na sua capacidade de usar a linguagem Java para a elaboração de programas que demonstrem os conceitos discutidos nas aulas. Tal avaliação é realizada por meio da aplicação de minitestes periodicamente. Nesse contexto, o estagiário pode contribuir com a elaboração de novos minitestes com foco em avaliar os alunos segundo os objetivos especificados no programa da disciplina, bem como em aplicá-los.
+  \item Correção de testes. essa atividade, feita com a supervisão do professor, tem por objetivo prover uma experiência na verificação do conhecimento dos alunos. A correção dos testes leva em consideração vários aspectos subjetivos dos alunos e é uma forma de familiarizar o estagiário com o processo de ensino já que o força a observar se os objetivos das aulas teóricas estão sendo cumpridos e ter um rápido retorno sobre o andamento dos alunos a fim de se melhorar a condução da disciplina.
+  \item Construção de um banco de questões. Dentro da atividade de elaboração de material didático, encontra-se uma parte específica sobre a criação de roteiros usados na disciplina prática. Apesar de ser uma disciplina separada, os roteiros geralmente têm uma ligação com o material da aula, compartilhando de exemplos e situações semelhantes e por diversas vezes com problemas similares sendo usados. Dessa forma, o estagiário contribui com as duas disciplinas com a elaboração de novos exemplos e problemas a serem resolvidos pelos alunos.
+  \item Levantamento de requisitos e especificação de uma ferramente de apoio a condução da disciplina. Tal ferramenta terá como principal função regular o acesso ao material da disciplina bem como submissão e retorno dos resultados das atividades dos alunos.
+  \item Elaboração e acompanhamento do projeto da disciplina. Os alunos da disciplina são requisitados a exercitarem o conhecimento na execução de um projeto. Em conjunto com o professor da disciplina, o estagiário pode auxiliar na elaboração de requisitos importantes e de acordo com os objetivos finais da disciplina e que levem a uma melhor e mais clara avaliação do aluno. 
+\end{itemize}
+
+\subsection{Indicadores de Progresso}
+
+O progresso da aplicação da atividade se dá durante a aplicação das mesmas na disciplina. Os materiais construídos vão sendo constantemente melhorados e as deficiências nos roteiros vão sendo levantadas e corrigidas. Os testes elaborados permitem identificar também falhas nas aulas e que uma vez identificadas podem vir a ser reparadas em conjunto com os alunos.
+
+\subsection{Cronograma}
+
+As atividades 1 e 4 serão realizadas no decorrer da disciplina para permitir um acompanhamento mais preciso de seus resultados. As atividades 2 e 3 serão realizadas conforme orientação do professor da disciplina. A atividade 5 será realizada ao longo da disciplina junto com o professor de modo a identificar os pontos mais interessantes a serem implementados na ferramenta.
+
+\newpage
+
+\bibliographystyle{plain}
+\bibliography{proposta}
+
+\newpage
+
+\section{Aprovação do Professor Orientador do Estágio}
+
+\begin{center}
+	\vspace{3cm}
+	\rule{12cm}{0.1mm}\\
+	\textbf{Prof$^{a}$ Dr$^{a}$ Raquel Vigolvino Lopes}\\
+	Professora das disciplinas Programação II\\
+	e Laboratório de Programação II   
+\end{center}
+
+\newpage
+
+\end{document}
